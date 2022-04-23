@@ -2,6 +2,6 @@
 layout: default
 title: About
 ---
-#About
+# About
 
 About Dauntless Scientific
