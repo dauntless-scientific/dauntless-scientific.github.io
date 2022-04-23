@@ -4,4 +4,4 @@ title: About
 ---
 # About
 
-About Dauntless Scientific
+This page is about Dauntless Scientific
