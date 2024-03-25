@@ -13,25 +13,7 @@
       </div>
     </main>
     {%- include footer.html -%}
-
-        {% if site.sc_project %}
-          <script type="text/javascript">
-          var sc_project={{site.sc_project}}; 
-          var sc_invisible=1; 
-          var sc_security="{{site.sc_security}}"; 
-          </script>
-          <script src="https://www.statcounter.com/counter/counter.js"
-          async></script>
-          <noscript><div class="statcounter"><a title="site stats"
-          href="https://statcounter.com/" target="_blank"><img
-          class="statcounter"
-          src="https://c.statcounter.com/{{site.sc_project}}/0/{{site.sc_security}}/1/"
-          alt="site stats"></a></div></noscript>
-        {% endif %}
-        {% if site.clicky %}
-          <script async data-id="{{site.clicky}}" src="https://static.getclicky.com/js"></script>
-          <noscript><p><img alt="Clicky" width="1" height="1" src="https://in.getclicky.com/{{site.clicky}}ns.gif" /></p></noscript>
-        {% endif %}
+    {%- include stats.html -%}
   </body>
 
 </html>
