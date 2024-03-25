@@ -4,13 +4,13 @@ title: Singam.org
 #  This description appears in the document head meta (for
 #  Google search results) and in the feed.xml site description.
 # baseurl: "/" # the subpath of the site, e.g. /blog
-url: "https://singam.org" #base URL
+url: "https://www.singam.org" #base URL
 #twitter_username: user
 #github_username:  user
 
-clicky: 101447765
-sc_project: 12981129
-sc_security: a356a11d
+# clicky: 101447765
+# sc_project: 12981129
+# sc_security: a356a11d
 
 # Build settings
 theme: minima
